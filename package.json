@@ -1,5 +1,5 @@
 {
-  "homepage": "https://silverdesignerdeveloper.github.io",
+  "homepage": "https://silverdesignerdeveloper.github.io/react-portfolio",
   "name": "silverdesignerdeveloper.github.io",
   "version": "0.1.1",
   "private": true,
@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json}\""
